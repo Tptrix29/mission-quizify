@@ -1,6 +1,7 @@
 env/
 db/
 __pycache__/
+.idea/
 application_key.json
 ai-data.json
 
