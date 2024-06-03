@@ -71,7 +71,6 @@ class ChromaCollectionCreator:
         # Step 3: Create the Chroma Collection
         # https://docs.trychroma.com/
         # Create a Chroma in-memory client using the text chunks and the embeddings model
-        # [Your code here for creating Chroma collection]
         self.db = Chroma.from_documents(texts, self.embed_model)
 
         if self.db:
